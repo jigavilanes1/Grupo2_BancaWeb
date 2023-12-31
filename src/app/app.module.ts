@@ -7,12 +7,28 @@ import { RouterModule } from '@angular/router';
 /************************* COMPONENTS ************************************** */
 import { OpcionesComponent } from './opciones/opciones.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
+import { DetallePagoCuentaComponent } from './detalle-pago-cuenta/detalle-pago-cuenta.component';
+import { HistorialCreditoComponent } from './historial-credito/historial-credito.component';
+import { InformacionCreditoComponent } from './informacion-credito/informacion-credito.component';
+import { LoginBwComponent } from './login-bw/login-bw.component';
+import { ProductoCreditoComponent } from './producto-credito/producto-credito.component';
+import { ProductoCuentasComponent } from './producto-cuentas/producto-cuentas.component';
+import { ProductosComponent } from './productos/productos.component';
+import { SolicitudCreditoComponent } from './solicitud-credito/solicitud-credito.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OpcionesComponent,
-    RegistrarseComponent
+    RegistrarseComponent,
+    DetallePagoCuentaComponent,
+    HistorialCreditoComponent,
+    InformacionCreditoComponent,
+    LoginBwComponent,
+    ProductoCreditoComponent,
+    ProductoCuentasComponent,
+    ProductosComponent,
+    SolicitudCreditoComponent
   ],
   imports: [
     BrowserModule,
