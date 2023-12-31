@@ -5,12 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 
 /************************* COMPONENTS ************************************** */
+import { OpcionesComponent } from './opciones/opciones.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
+    OpcionesComponent,
     RegistrarseComponent
   ],
   imports: [

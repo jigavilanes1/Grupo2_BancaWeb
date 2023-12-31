@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bancaWeb": {
+    "proyecto_FrontEnd": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/banca-web",
+            "outputPath": "dist/proyecto-front-end",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -57,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bancaWeb:build:production"
+              "buildTarget": "proyecto_FrontEnd:build:production"
             },
             "development": {
-              "buildTarget": "bancaWeb:build:development"
+              "buildTarget": "proyecto_FrontEnd:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "bancaWeb:build"
+            "buildTarget": "proyecto_FrontEnd:build"
           }
         },
         "test": {
@@ -84,6 +85,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -93,6 +95,6 @@
     }
   },
   "cli": {
-    "analytics": "72eaad56-b49d-44e9-a9d9-a298e034fcd4"
+    "analytics": "62c0951e-5a95-4d42-9c2a-da5b5371dae8"
   }
 }

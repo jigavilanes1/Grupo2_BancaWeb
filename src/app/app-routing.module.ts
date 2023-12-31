@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes, RoutesRecognized } from '@angular/router';
 
 /************************* COMPONENTS ************************************** */
+import { OpcionesComponent } from './opciones/opciones.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 
 const routes: Routes = [
-
+  
+  { path: '', component: OpcionesComponent},
   { path: 'registrarse', component: RegistrarseComponent}
 ];
 
