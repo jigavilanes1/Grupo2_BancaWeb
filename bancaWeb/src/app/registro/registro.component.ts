@@ -1,20 +1,16 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-registro',
-  standalone: true,
-  imports: [],
   templateUrl: './registro.component.html',
-  styleUrl: './registro.component.css'
+  styleUrls: ['./registro.component.css']
 })
-export class RegistroComponent {
-  constructor(private router: Router) {}
+export class RegistroComponent implements OnInit {
 
-  cancelarRegistro() {
-    this.router.navigate(['/']);
-  }
+
+  constructor() { }
+
+  ngOnInit() { }
+
+
 }
-
-
-
