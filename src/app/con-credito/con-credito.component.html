@@ -36,67 +36,53 @@
         </div>
         <div class="columna-gris">
             <div class="buttons-container">
-                <h3>Detalle Pago Cuota</h3>
+                <h3>Mis Productos</h3>
               </div>
-              <table class="tabla">
-                <tbody>
-                  <tr>
-                    <td>Monto:</td>
-                    <td><input></td>
-                  </tr>
-                  <tr>
-                    <td>Fecha:</td>
-                    <td><input type="date"></td>
-                  </tr>
-                  <tr>
-                      <td>Número Comprobante:</td>
-                      <td><input></td>
-                    </tr>
-                    
-                </tbody>
-            </table>
-              <div class="centrado">
-                <div class="cuadro-gris">
-                    <p>Más detalles</p>
-                  <table >
-                    <thead>
-                        <tr>
-                          <th>Encabezado 1</th>
-                          <th>Encabezado 2</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                        </tr>
-                        <tr>
-                          <td>Dato 4</td>
-                          <td>Dato 5</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                </div>
-                <div class="cuadro-gris">
-                    <p>Cuota</p>
+              <div class="button-container">
+                <div class="button-1" routerLink="/productos">Cuentas</div>
+                <div class="button-2" routerLink="productoCredito">Crédito</div>
+            </div>
+              <div class="container">
+                <div class="table-container">
                     <table >
                         <thead>
                             <tr>
-                              <th>Encabezado 1</th>
-                              <th>Encabezado 2</th>
+                              <th class="credito">Crèdito</th>
+                              <th></th>
+                              <th></th>
+                              <th>Activo</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Dato 1</td>
-                              <td>Dato 2</td>
+                              <td class="credito">Consumo</td>
+                              <td class="normal">Total a Pagar</td>
+                              <td></td>
+                              <td class="normal">$543.41</td>
                             </tr>
-                            <tr>
-                              <td>Dato 4</td>
-                              <td>Dato 5</td>
-                            </tr>
+                            <tr><td class="credito">12333</td>
+                                <td class="normal">Monto Restante</td>
+                                <td></td>
+                                <td class="normal">$543.41</td>
+                              </tr>
                           </tbody>
                         </table>
+                </div>
+              </div>
+              <div class="centrado">
+                <div class="cuadro-gris" routerLink="/solicitudCredito">
+                  <img
+                    src="../../assets/img/bw/solicitar.png"
+                    alt="Imagen Depósitos"
+                  />
+                  <p>Solicitar Crédito</p>
+                </div>
+                <div class="cuadro-gris" routerLink="/retirosSinTarjeta">
+                  <img
+                    src="../../assets/img/bw/historial.png"
+                    alt="Imagen Retiros"
+                  />
+                  <p>Historial de Pago</p>
                 </div>
               </div>
         </div>

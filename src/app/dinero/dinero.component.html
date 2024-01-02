@@ -36,40 +36,44 @@
         </div>
         <div class="columna-gris">
             <div class="buttons-container">
-                <h3>Solicitud de crédito</h3>
+                <h3>¿Cuánto dinero necesitas?</h3>
               </div>
               <p class="p-class">Datos Personales</p>
               <table class="tabla">
                   <tbody>
                     <tr>
-                      <td>Nombres:</td>
+                      <td>Ingresa el valor seleccionado:</td>
                       <td><input></td>
                     </tr>
                     <tr>
-                      <td>Apellidos:</td>
-                      <td><input></td>
+                      <td>Selecciona las cuotas a tu medida:</td>
+                      <td><select>
+                        <option value="opcion1">12 meses</option>
+                        <option value="opcion2">24 meses</option>
+                        <option value="opcion3">36 meses</option>
+                        <option value="opcion3">48 meses</option>
+                      </select></td>
                     </tr>
                     <tr>
-                        <td>Ciudad:</td>
+                        <td>Sistema de amortización:</td>
+                        <td><select>
+                            <option value="opcion1">Alemana</option>
+                            <option value="opcion2">Francesa</option>
+                            </select></td>
+                      </tr>
+                      <tr>
+                        <td>Tasa anual referencial:</td>
                         <td><input></td>
                       </tr>
                       <tr>
-                        <td>Dirección:</td>
-                        <td><input></td>
-                      </tr>
-                      <tr>
-                        <td>Teléfono:</td>
-                        <td><input></td>
-                      </tr>
-                      <tr>
-                        <td>Correo:</td>
-                        <td><input></td>
+                        <td></td>
+                        <td><input type="date"></td>
                       </tr>
                   </tbody>
               </table>
               <div class="button-container">
                 <div class="button-1" routerLink="/dinero">Continuar</div>
-                <div class="button-2" routerLink="/solicitudCredito">Regresar</div>
+                <div class="button-2" routerLink="/informacionCredito">Regresar</div>
             </div>
         </div>
         

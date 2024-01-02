@@ -163,7 +163,7 @@
     justify-content: center;
   }
   
-  .button-1{
+  .button-2{
     width: 175px;
     height: 40px;
     border-radius: 10px;
@@ -172,14 +172,14 @@
     font-size: 25px;
     color: #097D7D;
     font-weight: bold;
-    margin-left: 0%;
+    margin-left: 10%;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .button-2{
+  .button-1{
     width: 175px;
     height: 40px;
     border-radius: 10px;
@@ -188,7 +188,7 @@
     font-size: 25px;
     color: #ffffff;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 0%;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -208,19 +208,40 @@
     margin: 5px;
   }
   
-  .button:hover {
-    background: linear-gradient(to top, #273d8b, #231249);
+  .button-2:hover {
+    background: linear-gradient(to top, #ffffff, #dbdbdb);
+  }
+
+  .button-1:hover {
+    background: linear-gradient(to top, #11d0c0, #19c1b3);
   }
 
   .centrado {
     text-align: center;
     display: flex;
+    margin-top: 75px;
     gap: 125px;
     justify-content: center;
   }
   
+  .cuadro-gris table th{
+    border:"0" ;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+  }
+
+  .cuadro-gris table td{
+    border:"0" ;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
   .cuadro-gris {
-    background-color: #c8c8c8;
+    background: linear-gradient(to top, #6a8885, #4ad8cd);
     padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
@@ -228,23 +249,21 @@
     align-items: center;
     flex-direction: column;
     border-radius: 25px;
-    border: 6px solid #bfbebe;
     box-shadow: 75 4px 4px rgba(0, 0, 0, 0.407);
     width: 100%;
     max-width: 300px;
-    height: 60%;
-    margin-bottom: 10px;
+    height: 90%;
+    margin-bottom: 5px;
   }
   
   .cuadro-gris:hover {
     transform: scale(1.1);
     cursor: pointer;
-    border: 4px solid #ffffff;
   }
   
   .cuadro-gris img {
-    width: 100%;
-    height: 60%;
+    width: 25%;
+    height: 40%;
   }
   
   .cuadro-gris p {

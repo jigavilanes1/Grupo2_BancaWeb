@@ -53,6 +53,32 @@
     border-radius: 50%;
   }
   
+  .tabla{
+    padding-top: -20px;
+    margin-left: 200px;
+    width: 40%;
+  }
+
+  .tabla input{
+    width: 100%;
+    border-radius: 10px;
+    border-color: #cde2e0;
+    padding: 5px;
+    background-color: #b5e6e1;
+  }
+
+  .tabla select{
+    width: 100%;
+    border-radius: 10px;
+    border-color: #656767;
+    padding: 5px;
+    background-color: #b5e6e1;
+  }
+
+  .tabla td{
+    padding-top: 20px;
+  }
+
   .usuario-info p {
     font-size: 20px;
     padding-right: 15px;
@@ -149,6 +175,19 @@
     text-align: center;
   }
 
+  .p-class{
+    font-size: 25px;
+    font-weight:normal;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+    margin-top: 10px;
+    color: #000000d3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.386);
+    margin-left:90px;
+    font-weight: lighter;
+    cursor: default;
+  }
+
   .container {
       max-width: 95%;
       margin: 20px auto;
@@ -163,16 +202,30 @@
     justify-content: center;
   }
   
+  .container{
+    margin-top: 2.5%;
+    background: linear-gradient(to top, rgb(239, 239, 239), #dedede);
+    width: 20%;
+    text-align: center;
+  }
+
+  .container p{
+    font-size: 25px;
+    font-weight:normal;
+    margin: 5px;
+  }
+ 
   .button-1{
     width: 175px;
     height: 40px;
     border-radius: 10px;
-    background: linear-gradient(to top, #e9ebf0, #d4d2d8);
+    background: linear-gradient(to top, #195953, #1c8b82);
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
-    color: #097D7D;
+    font-size: 20px;
+    color: #ffffff;
     font-weight: bold;
-    margin-left: 0%;
+    margin-top: 4%;
+    margin-left: 50%;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -183,45 +236,21 @@
     width: 175px;
     height: 40px;
     border-radius: 10px;
-    background: linear-gradient(to top, #16b9ab, #1DAB9F);
+    background: linear-gradient(to top, #195953, #1c8b82);
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: bold;
-    margin-left: 10%;
+    margin-top: 4%;
+    margin-left: 5%;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  .container{
-    margin-top: 2.5%;
-    background: linear-gradient(to top, rgb(239, 239, 239), #dedede);
-    width: 20%;
-    text-align: center;
-  }
-
-  .container:hover{
-    margin-top: 2.5%;
-    background: linear-gradient(to top, rgb(255, 254, 254), #a7a7a7);
-    width: 20%;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .container p{
-    font-size: 25px;
-    font-weight:normal;
-    margin: 5px;
-  }
   
-  .button-1:hover {
-    background: linear-gradient(to top, #ffffff, #dbdbdb);
-  }
-
-  .button-2:hover {
-    background: linear-gradient(to top, #11d0c0, #19c1b3);
+  .button-2:hover, .button-1:hover {
+    background: linear-gradient(to top, #1b857c, #1ca99d);
   }
 
   .centrado {
@@ -253,8 +282,8 @@
   }
   
   .cuadro-gris img {
-    width: 25%;
-    height: 40%;
+    width: 35%;
+    height: 50%;
   }
   
   .cuadro-gris p {

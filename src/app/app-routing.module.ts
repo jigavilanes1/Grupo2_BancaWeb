@@ -10,9 +10,10 @@ import { HistorialCreditoComponent } from './historial-credito/historial-credito
 import { InformacionCreditoComponent } from './informacion-credito/informacion-credito.component';
 import { LoginBwComponent } from './login-bw/login-bw.component';
 import { ProductoCreditoComponent } from './producto-credito/producto-credito.component';
-import { ProductoCuentasComponent } from './producto-cuentas/producto-cuentas.component';
 import { ProductosComponent } from './productos/productos.component';
 import { SolicitudCreditoComponent } from './solicitud-credito/solicitud-credito.component';
+import { ConCreditoComponent } from './con-credito/con-credito.component';
+import { DineroComponent } from './dinero/dinero.component';
 
 const routes: Routes = [
   
@@ -23,9 +24,10 @@ const routes: Routes = [
   { path: 'informacionCredito', component: InformacionCreditoComponent},
   { path: 'loginBW', component: LoginBwComponent},
   { path: 'productoCredito', component: ProductoCreditoComponent},
-  { path: 'productoCuentas', component: ProductoCuentasComponent},
   { path: 'productos', component: ProductosComponent},
-  { path: 'solicitudCredito', component: SolicitudCreditoComponent}
+  { path: 'solicitudCredito', component: SolicitudCreditoComponent},
+  { path: 'conCredito', component: ConCreditoComponent},
+  { path: 'dinero', component: DineroComponent}
 ];
 
 @NgModule({
