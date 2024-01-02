@@ -1,1 +1,73 @@
-<p>productos works!</p>
+<div class="primer-grid">
+    <div class="header">
+        <div class="logo">
+            <img src="../../../assets/img/logo sin letras.png" alt="Usuario">
+        </div>
+        <div class="nombre">
+            <p>Banco BanQuito</p>
+        </div>
+        <div class="usuario-info">
+            <p>Nombre de Usuario </p>
+            <img src="../../../assets/img/Img persona.png" alt="Usuario">
+        </div>
+    </div>
+    <div class="segundo-grid">
+        <div class="columna-celeste">
+            <div class="espaciado"></div>
+            <div class="productos" routerLink="/productos">
+                <p>Productos</p>
+            </div>
+            <div class="espaciado"></div>
+            <div class="consultas" routerLink="/creditos">
+                <p>Consultas</p>
+            </div>
+            <div class="espaciado"></div>
+            <div class="transferencias" routerLink="/creditos">
+                <p>Transferencias</p>
+            </div>
+            <div class="espaciado"></div>
+            <div class="mi perfil" routerLink="/creditos">
+                <p>Mi perfil</p>
+            </div>
+            <div class="salir" routerLink="/">
+                <img src="../../assets/img/bw/salir.png" alt="Sin Tarjeta">
+                <p>Salir</p>
+            </div>
+        </div>
+        <div class="columna-gris">
+            <div class="buttons-container">
+                <h3>Mis Productos</h3>
+              </div>
+              <div class="button-container">
+                <div class="button-1" routerLink="/cuentas">Cuentas</div>
+                <div class="button-2" routerLink="/transacciónCancelada">Crédito</div>
+            </div>
+              <div class="container">
+                <div class="table-container">
+                    <p>No tiene Créditos activos</p>
+                </div>
+              </div>
+              <div class="centrado">
+                <div class="cuadro-gris" routerLink="/depositosSinTarjeta">
+                  <img
+                    src="../../../assets/img/atm/depositar.png"
+                    alt="Imagen Depósitos"
+                  />
+                  <p>Solicitar Crédito</p>
+                </div>
+                <div class="cuadro-gris" routerLink="/retirosSinTarjeta">
+                  <img
+                    src="../../../assets/img/atm/retiro-de-efectivo.png"
+                    alt="Imagen Retiros"
+                  />
+                  <p>Historial de Pago</p>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+</div>
+<footer>
+    © 2023 BancoBanquito. Todos los derechos reservados.
+</footer>

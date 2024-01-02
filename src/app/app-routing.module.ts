@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD:src/app/app-routing.module.ts
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes, RoutesRecognized } from '@angular/router';
 
@@ -36,23 +35,5 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
-=======
-import { Routes, RouterModule } from '@angular/router';
-
-import { InicioComponent } from './inicio/inicio.component';
-import { RegistroComponent } from './registro/registro.component';
-import { LoginComponent } from './login/login.component';
-
-const routes: Routes = [
-  { path: 'home'    , component: InicioComponent },
-  { path: 'registro', component: RegistroComponent },
-  { path: 'login'   , component: LoginComponent },
-  { path: '**', redirectTo: 'registro' }
-];
-
-@NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
->>>>>>> 057b748fc7ead57965575b5ce8964536fc499e58:bancaWeb/src/app/app-routing.module.ts
 })
 export class AppRoutingModule { }
