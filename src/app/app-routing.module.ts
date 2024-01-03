@@ -17,7 +17,7 @@ import { DineroComponent } from './dinero/dinero.component';
 
 const routes: Routes = [
   
-  { path: '', component: OpcionesComponent},
+  { path: '', component: LoginBwComponent},
   { path: 'registrarse', component: RegistrarseComponent},
   { path: 'detallePago', component: DetallePagoCuentaComponent},
   { path: 'historialCredito', component: HistorialCreditoComponent},
